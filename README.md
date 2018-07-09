@@ -26,9 +26,9 @@ item's attributes and how similar they are.
 
 ## Dataset
 
-The data used for this project was the MovieLens 20M Dataset which contains 20 million ratings and 
-465,000 tag applications applied to 27,000 movies by 138,000 users. The data was acquired from the 
-following source:
+The data used for this project was the MovieLens 100K Dataset which contains 
+100004 ratings and 1296 tag applications across 9125 movies. The data was acquired 
+from the following source:
 
 - [MovieLens](http://grouplens.org/datasets/movielens/)
 
