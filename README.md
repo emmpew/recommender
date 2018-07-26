@@ -20,9 +20,7 @@ is making sure their customers are efficiently served with the right products.
 
 The goal of a recommendation model is to present a ranked list of objects given an input object. 
 There are different methods to approach this problem. Two of the most commonly used approaches are 
-Content-Based and Collaborative Filtering. Collaborative filtering method is based on the 
-relationship between the user and the items. As for the content-based method, it focuses on the 
-item's attributes and how similar they are.
+Content-Based and Collaborative Filtering. For this project, we will focus on Collaborative filtering method which is based on the relationship between users and the items. 
 
 ## Dataset
 
@@ -36,10 +34,14 @@ from the following source:
 
 ### Technique
 
+There are many ways of building a recommender system. This project went over two different ways of implementing Collaborative Filtering. We covered Memory-based models which are based on similarity between items or users, where we used centered cosine-similarity, also known as pearson correlation.
+
 ### Results
 
+<div class="span5 alert alert-info">
+User-Based CF RMSE: 3.586
+<br/>
+Item-Based CF RMSE: 3.542
+</div>
 
-## Next Steps
-
-
-## References
+Item-based collaborative filtering performed better than user-based. In practice, item-based tends to outperform user-based for most use cases, such as movies. This is because items are simpler than users since they belong to a small set of genres like seen in the data analysis step.
