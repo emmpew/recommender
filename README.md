@@ -38,10 +38,9 @@ There are many ways of building a recommender system. This project went over two
 
 ### Results
 
-<div class="span5 alert alert-info">
-User-Based CF RMSE: 3.586
-<br/>
-Item-Based CF RMSE: 3.542
-</div>
+| CF Algorithms | RMSE          |
+|:-------------:|:-------------:| 
+| Use-Based     | 3.586         | 
+| Item-Based    | 3.542         |  
 
 Item-based collaborative filtering performed better than user-based. In practice, item-based tends to outperform user-based for most use cases, such as movies. This is because items are simpler than users since they belong to a small set of genres like seen in the data analysis step.
